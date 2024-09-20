@@ -1,0 +1,70 @@
+.table-wrapper{
+max-width: 1200px;
+width: 100%;
+}
+
+.table-wrapper table thead tr th{
+    color: white;
+    font-weight: 600;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+     /* Tüm hücrelerin ortalanması */
+    /* Tüm hücrelerin eşit genişlikte olmasını sağlar */
+  }
+  
+  th, td {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    vertical-align: middle; /* İçeriğin dikey ortalanması */
+    word-wrap: break-word; /* İçeriğin taşmasını engeller */
+  }
+  
+  th {
+    background-color: #4CAF50; /* Başlık hücrelerinin arka plan rengi */
+    color: white; /* Başlık hücrelerinin yazı rengi */
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2; /* Çift numaralı satırların arka plan rengi */
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffffff; /* Tek numaralı satırların arka plan rengi */
+  }
+  
+  tr:hover {
+    background-color: #ddd; /* Üzerine gelindiğinde satırın arka plan rengi */
+  }
+  
+  tbody tr td:last-child {
+    text-align: center;
+  }
+  
+  thead {
+    position: sticky;
+    top: 0;
+    background-color: #4CAF50; /* Sabitlenen başlık için arka plan rengi */
+    color: white; /* Sabitlenen başlık için yazı rengi */
+  
+  }
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .buttons button{
+    border-radius: 10px;
+  }
+  @media screen and (max-width: 872px) {
+ .table{
+
+ }
+  
+  }

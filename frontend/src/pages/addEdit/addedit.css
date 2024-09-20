@@ -1,0 +1,51 @@
+.addEdit-wrapper{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(172, 172, 250, 0.5);
+    border: 1px  solid #ddd;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-wrapper input{
+  background-color: white;
+  color:black;
+  padding: 10px 10px;
+  border-radius: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.input-wrapper label{
+   
+   text-align: center;
+   color: white;
+   font-weight: 600;
+   font-size: 20px;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  form input{
+    background-color: #28a745;
+    border-radius: 20px;
+    width: 60%;
+    color:white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 10px;
+    border: 1px solid black;
+  }
+  form input:hover{
+   
+  }

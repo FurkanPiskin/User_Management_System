@@ -1,0 +1,23 @@
+.App {
+    /* Dikey merkezleme */
+ 
+ height: 100%;
+      /* Yüksekliği %100 yapın */
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+margin: 0 auto;
+margin-top:6.25rem;
+display: flex;
+align-items: center;
+justify-content: center;
+
+  
+}
+@media (max-width:860px){
+ .container{
+ max-width: 720px;
+ }
+}

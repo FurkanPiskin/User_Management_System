@@ -1,0 +1,30 @@
+.header{
+ padding: 10px 20px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header .header-left a{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding: 10px 20px;
+}
+.header-right  a {
+   color: white;
+   font-weight: 600;
+    border-radius:20px;
+    padding: 5px 10px;
+    border: none;
+    
+}
+.header-right .active{
+    background-color:#28a745;
+}
